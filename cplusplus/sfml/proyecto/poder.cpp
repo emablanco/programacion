@@ -1,5 +1,7 @@
 #include "poder.h"
 
+Poder::Poder(float x, float y):scale_x(x), scale_y(y){}
+
 //--------------------------- PROTECTED ----------------------------------
 
 bool Poder::setPoderes(std::string nombre, sf::Texture imagen){

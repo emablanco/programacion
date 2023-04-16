@@ -10,6 +10,8 @@
 #include <vector>
 #include "personaje.h"
 #include "goku.h"
+#include "poder.h"
+#include "kameha1.h"
 class Base{
 
     private:
@@ -21,6 +23,7 @@ class Base{
         sf::Vector2i resolucion;
        
         std::vector<Personaje *> luchadores;
+        std::vector<Poder*> poderes;
 
         sf::Clock reloj1;
         sf::Time tiempo1;

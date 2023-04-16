@@ -26,9 +26,8 @@ class Personaje: public sf::Drawable{
         bool setValoresEscala(float,float);
 
     public:
-
         Personaje(std::string r, float, float);
-
+        Personaje(const Personaje&)=delete;
         bool setSpriteIndex(std::string m, int);
         int cantidadImagenes(std::string);
         bool setPuntoOrigen(float, float, std::string, int);

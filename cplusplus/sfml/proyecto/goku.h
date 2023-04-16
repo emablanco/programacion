@@ -13,7 +13,8 @@ class Goku: public Personaje{
 
     public:
     
-        Goku(std::string r = "./image/DBZ/GOKU4/0.png", float x = 100, float y = 100);
+        Goku( std::string ruta = "./image/LUCHADORES/GOKU4.png", float x = 100, float y = 100);
+        Goku(const Goku&)= delete;
         ~Goku()override;
 };
 #endif /* ifndef DEBUG */

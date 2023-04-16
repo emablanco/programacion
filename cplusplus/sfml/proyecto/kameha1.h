@@ -1,5 +1,5 @@
-#ifndef GOKU_H
-#define GOKU_H
+#ifndef KAMEHA_H
+#define KAMEHA_H
 
 #include <string>
 #include "personaje.h"
@@ -7,13 +7,14 @@
 #include <string>
 #include <cctype>
 #include <SFML/Graphics/Texture.hpp>
-class Goku: public Personaje{
+#include "poder.h"
+class Kameha1: public Poder{
 
     private:
 
     public:
-    
-        Goku(std::string r = "./image/DBZ/GOKU4/0.png", float x = 100, float y = 100);
-        ~Goku()override;
+        Kameha1();
+        Kameha1(const Kameha1&)= delete;
+        ~Kameha1()override;
 };
 #endif /* ifndef DEBUG */

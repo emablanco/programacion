@@ -1,0 +1,7 @@
+#el "." representa el directorio donde se encuentra el archivo goku.h
+#resoluciom
+x=20
+y=40
+kameha_dorado
+./image/ATAQUES/GOKU4/KAMEHA_DORADO/1.png
+./image/ATAQUES/GOKU4/KAMEHA_DORADO/2.png

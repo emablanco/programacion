@@ -1,7 +1,7 @@
 #include "goku.h"
 #include <string>
 
-Goku::Goku(std::string r, float x, float y): Personaje(r,x,y){
+Goku::Goku(std::string ruta, float x, float y): Personaje(ruta,x,y){
 
     std::ifstream archivo("./configuraciones/config_goku.txt"); // Abre el archivo
     

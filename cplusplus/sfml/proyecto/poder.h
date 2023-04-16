@@ -27,6 +27,7 @@ class Poder: public sf::Drawable{
         bool setValoresEscala(float,float);
 
     public:
+        Poder(float x = 100, float y = 100);
         
         bool setSpriteIndex(std::string m, int);
         int cantidadImagenes(std::string);
