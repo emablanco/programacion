@@ -1,0 +1,894 @@
+
+    Vegeta  ATACA A     Picolo Y SEMUERE
+
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Cell    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Cell    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Goku    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+
+
+    Vegeta  ATACA A       Goku Y SEMUERE
+
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Cell    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Cell    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Goku    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+
+
+    Picolo  ATACA A       Goku Y SEMUERE
+
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Cell    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Cell    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Goku    Vida: 3     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+
+
+    Vegeta  ATACA A     Vegeta Y SEMUERE
+
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Cell    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Goku    Vida: 3     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+
+
+    Vegeta  ATACA A     Picolo Y SEMUERE
+
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Cell    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Goku    Vida: 3     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+
+
+    Picolo  ATACA A     Vegeta SE DEFIENDE CON UNA DEFENZA ESPECIAL Y SEMUERE
+
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Cell    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Goku    Vida: 3     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+
+
+    Vegeta  ATACA A       Goku Y SEMUERE
+
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 7    Mana: 4  Fuerza: 9 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Cell    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Goku    Vida: 2     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+
+
+    Picolo  ATACA A     Picolo Y SEMUERE
+
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 7    Mana: 4  Fuerza: 9 Esta Vivo
+    Raza: Picolo    Vida: 3     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Cell    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Goku    Vida: 2     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+
+
+    Vegeta  ATACA A     Picolo Y SEMUERE
+
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 7    Mana: 4  Fuerza: 9 Esta Vivo
+    Raza: Picolo    Vida: 2     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Cell    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 2     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+
+
+      Goku  ATACA A       Cell Y SEMUERE
+
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 7    Mana: 4  Fuerza: 9 Esta Vivo
+    Raza: Picolo    Vida: 2     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Cell    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 2     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+
+
+      Cell  ATACA A       Cell Y SEMUERE
+
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 7    Mana: 4  Fuerza: 9 Esta Vivo
+    Raza: Picolo    Vida: 2     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 3     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 2     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+
+
+    Picolo  ATACA A     Picolo Y SEMUERE
+
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 7    Mana: 4  Fuerza: 9 Esta Vivo
+    Raza: Picolo    Vida: 2     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 3     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 2     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+
+
+    Vegeta ATACA CON UN ATAQUE ESPECIAL A     Picolo
+
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 7    Mana: 4  Fuerza: 9 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 3     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 2     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+
+
+    Vegeta  ATACA A    Freezer Y SEMUERE
+
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 7    Mana: 4  Fuerza: 9 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 3     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 2     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+
+
+    Picolo  ATACA A     Vegeta SE DEFIENDE CON UNA DEFENZA ESPECIAL Y SEMUERE
+
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 7    Mana: 4  Fuerza: 9 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 3     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 2     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+
+
+    Picolo  ATACA A     Picolo Y SEMUERE
+
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 7    Mana: 4  Fuerza: 9 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 3     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 2     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+
+
+    Picolo  ATACA A       Goku SE DEFIENDE CON UNA DEFENZA ESPECIAL Y SEMUERE
+
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 7    Mana: 4  Fuerza: 9 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 3     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 7     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 2     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+
+
+    Picolo  ATACA A     Picolo Y SEMUERE
+
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 7    Mana: 4  Fuerza: 9 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 3     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 7     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 2     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+
+
+    Picolo  ATACA A       Goku Y SEMUERE
+
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 7    Mana: 4  Fuerza: 9 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 3     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 6     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 2     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+
+
+      Cell  ATACA A     Vegeta SE DEFIENDE CON UNA DEFENZA ESPECIAL Y SEMUERE
+
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 7    Mana: 4  Fuerza: 9 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 3     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 6     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 2     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+
+
+   Freezer  ATACA A     Vegeta SE DEFIENDE CON UNA DEFENZA ESPECIAL
+
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 3     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 6     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 2     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+
+
+      Goku  ATACA A       Cell SE DEFIENDE CON UNA DEFENZA ESPECIAL Y SEMUERE
+
+    Raza: Freezer    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 3     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 6     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 2     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+
+
+   Freezer  ATACA A       Goku Y SEMUERE
+
+    Raza: Freezer    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 3     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 5     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 2     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+
+
+    Vegeta ATACA CON UN ATAQUE ESPECIAL A     Picolo Y SEMUERE
+
+    Raza: Freezer    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 3     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 5     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 1     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 2     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+
+
+    Picolo  ATACA A     Vegeta SE DEFIENDE CON UNA DEFENZA ESPECIAL Y SEMUERE
+
+    Raza: Freezer    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 3     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 5     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 1     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 2     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+
+
+   Freezer ATACA CON UN ATAQUE ESPECIAL A     Picolo
+
+    Raza: Freezer    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 3     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 5     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 1     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 2     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+
+
+    Vegeta  ATACA A     Vegeta
+
+    Raza: Freezer    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 3     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 5     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 1     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 2     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+
+
+   Freezer ATACA CON UN ATAQUE ESPECIAL A     Picolo
+
+    Raza: Freezer    Vida: 5     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 3     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 5     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 2     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+
+
+    Picolo  ATACA A    Freezer Y SEMUERE
+
+    Raza: Freezer    Vida: 5     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 3     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 3     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 5     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 2     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+
+
+    Vegeta ATACA CON UN ATAQUE ESPECIAL A     Picolo Y SEMUERE
+
+    Raza: Freezer    Vida: 5     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 1     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Freezer    Vida: 3     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 3     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 5     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 2     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+
+
+    Vegeta ATACA CON UN ATAQUE ESPECIAL A    Freezer
+
+    Raza: Freezer    Vida: 5     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 1     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 3     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 5     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 2     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+
+
+      Cell ATACA CON UN ATAQUE ESPECIAL A     Vegeta SE DEFIENDE CON UNA DEFENZA ESPECIAL
+
+    Raza: Freezer    Vida: 5     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Picolo    Vida: 1     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 3     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 5     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 2     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+
+
+      Goku ATACA CON UN ATAQUE ESPECIAL A     Picolo
+
+    Raza: Freezer    Vida: 5     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 3     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 5     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 2     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+
+
+      Cell  ATACA A       Cell SE DEFIENDE CON UNA DEFENZA ESPECIAL
+
+    Raza: Freezer    Vida: 5     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 1     Agi: 7    Mana: 4  Fuerza: 9 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 5     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 2     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+
+
+    Vegeta ATACA CON UN ATAQUE ESPECIAL A     Picolo Y SEMUERE
+
+    Raza: Freezer    Vida: 5     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Cell    Vida: 1     Agi: 7    Mana: 4  Fuerza: 9 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 5     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 2     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 1     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+
+
+   Freezer  ATACA A       Cell SE DEFIENDE CON UNA DEFENZA ESPECIAL
+
+    Raza: Freezer    Vida: 5     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 5     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 7    Mana: 4  Fuerza: 9 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 2     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 1     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+
+
+    Vegeta  ATACA A       Goku Y SEMUERE
+
+    Raza: Freezer    Vida: 5     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 7    Mana: 4  Fuerza: 9 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 4     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 7    Mana: 4  Fuerza: 9 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 2     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 1     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+
+
+   Freezer ATACA CON UN ATAQUE ESPECIAL A       Goku
+
+    Raza: Freezer    Vida: 5     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 7    Mana: 4  Fuerza: 9 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Freezer    Vida: 5     Agi: 7    Mana: 1  Fuerza: 9 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 2     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 1     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+
+
+    Vegeta ATACA CON UN ATAQUE ESPECIAL A    Freezer Y SEMUERE
+
+    Raza: Freezer    Vida: 5     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 7    Mana: 4  Fuerza: 9 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Freezer    Vida: 2     Agi: 7    Mana: 1  Fuerza: 9 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Goku    Vida: 2     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 1     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+
+
+    Vegeta  ATACA A     Picolo
+
+    Raza: Freezer    Vida: 5     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 7    Mana: 4  Fuerza: 9 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Freezer    Vida: 2     Agi: 7    Mana: 1  Fuerza: 9 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 7    Mana: 4  Fuerza: 9 Esta Vivo
+    Raza: Goku    Vida: 2     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+
+
+    Vegeta ATACA CON UN ATAQUE ESPECIAL A    Freezer
+
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 7    Mana: 4  Fuerza: 9 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Freezer    Vida: 2     Agi: 7    Mana: 1  Fuerza: 9 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 7    Mana: 1  Fuerza: 9 Esta Vivo
+    Raza: Goku    Vida: 2     Agi: 4    Mana: 1  Fuerza: 5 Esta Vivo
+
+
+    Vegeta ATACA CON UN ATAQUE ESPECIAL A       Goku
+
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 7    Mana: 1  Fuerza: 9 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Freezer    Vida: 2     Agi: 7    Mana: 1  Fuerza: 9 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 7    Mana: 1  Fuerza: 9 Esta Vivo
+
+
+    Vegeta ATACA CON UN ATAQUE ESPECIAL A     Vegeta
+
+    Raza: Picolo    Vida: 4     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 7    Mana: 1  Fuerza: 9 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Freezer    Vida: 2     Agi: 7    Mana: 1  Fuerza: 9 Esta Vivo
+
+
+   Freezer  ATACA A     Picolo Y SEMUERE
+
+    Raza: Picolo    Vida: 3     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 7    Mana: 1  Fuerza: 9 Esta Vivo
+    Raza: Vegeta    Vida: 5     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Freezer    Vida: 2     Agi: 10    Mana: 4  Fuerza: 13 Esta Vivo
+
+
+   Freezer ATACA CON UN ATAQUE ESPECIAL A     Vegeta SE DEFIENDE CON UNA DEFENZA ESPECIAL
+
+    Raza: Picolo    Vida: 3     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 7    Mana: 1  Fuerza: 9 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+    Raza: Freezer    Vida: 2     Agi: 10    Mana: 1  Fuerza: 13 Esta Vivo
+
+
+    Vegeta ATACA CON UN ATAQUE ESPECIAL A    Freezer
+
+    Raza: Picolo    Vida: 3     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 1     Agi: 7    Mana: 1  Fuerza: 9 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+
+
+    Vegeta ATACA CON UN ATAQUE ESPECIAL A     Vegeta
+
+    Raza: Picolo    Vida: 3     Agi: 1    Mana: 1  Fuerza: 1 Esta Vivo
+    Raza: Vegeta    Vida: 4     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+
+
+    Vegeta ATACA CON UN ATAQUE ESPECIAL A     Picolo
+
+    Raza: Vegeta    Vida: 4     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo
+
+
+VER GANADOR    Raza: Vegeta    Vida: 4     Agi: 4    Mana: 4  Fuerza: 5 Esta Vivo

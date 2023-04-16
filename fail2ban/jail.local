@@ -1,0 +1,14 @@
+[DEFAULT]
+
+bantime.increment    = true
+bantime.rndtime      = 30m
+bantime.maxtime      = 60d
+bantime.factor       = 2
+bantime.formula      = ban.Time * math.exp(float(ban.Count+1)*banFactor)/math.exp(1*banFactor)
+bantime.overalljails = true
+maxretry = 3
+
+[sshd]
+enabled = true
+action  = iptables[name=SSH, port=22, protocol=tcp]
+		telegram

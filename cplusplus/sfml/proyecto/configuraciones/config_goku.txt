@@ -1,0 +1,8 @@
+#el "." representa el directorio donde se encuentra el archivo goku.h
+correr
+./image/GOKU4/CORRER/1.png
+./image/GOKU4/CORRER/2.png
+./image/GOKU4/CORRER/3.png
+./image/GOKU4/CORRER/4.png
+./image/GOKU4/CORRER/5.png
+
