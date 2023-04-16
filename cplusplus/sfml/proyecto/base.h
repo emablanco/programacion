@@ -4,6 +4,8 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Graphics/RenderWindow.hpp>
 #include <SFML/Graphics/Texture.hpp>
+#include <SFML/System/Clock.hpp>
+#include <SFML/System/Time.hpp>
 #include <SFML/System/Vector2.hpp>
 #include <vector>
 #include "personaje.h"
@@ -20,11 +22,20 @@ class Base{
        
         std::vector<Personaje *> luchadores;
 
-    public:
-        Base(sf::Vector2i, std::string);
-        bool gameLoop();
-        bool dibujar();
+        sf::Clock reloj1;
+        sf::Time tiempo1;
 
+        int imagenes;
+
+    public:
+ 
+        Base(sf::Vector2i, std::string);
+        
+        bool gameLoop();
+        
+        bool dibujar();
+        
+        bool controlarTiempo(float);
 };
 
 #endif /* ifndef BASE_H

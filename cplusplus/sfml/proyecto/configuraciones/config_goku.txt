@@ -1,8 +1,15 @@
 #el "." representa el directorio donde se encuentra el archivo goku.h
 correr
-./image/GOKU4/CORRER/1.png
-./image/GOKU4/CORRER/2.png
-./image/GOKU4/CORRER/3.png
-./image/GOKU4/CORRER/4.png
-./image/GOKU4/CORRER/5.png
-
+./image/DBZ/GOKU4/CORRER/1.png
+./image/DBZ/GOKU4/CORRER/2.png
+./image/DBZ/GOKU4/CORRER/3.png
+./image/DBZ/GOKU4/CORRER/4.png
+./image/DBZ/GOKU4/CORRER/5.png
+super_kameha
+./image/DBZ/GOKU4/KAMEKAMEHA_SUPER/1.png
+./image/DBZ/GOKU4/KAMEKAMEHA_SUPER/2.png
+./image/DBZ/GOKU4/KAMEKAMEHA_SUPER/3.png
+./image/DBZ/GOKU4/KAMEKAMEHA_SUPER/4.png
+./image/DBZ/GOKU4/KAMEKAMEHA_SUPER/5.png
+./image/DBZ/GOKU4/KAMEKAMEHA_SUPER/6.png
+./image/DBZ/GOKU4/KAMEKAMEHA_SUPER/7.png
