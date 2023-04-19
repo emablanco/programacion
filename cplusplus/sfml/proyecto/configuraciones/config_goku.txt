@@ -1,11 +1,29 @@
 #el "." representa el directorio donde se encuentra el archivo goku.h
+#valores para escalar la imagen
+_ex=100
+_ey=100
+#posicion de la imagen en  la ventana
+_px=0
+_py=0
+#cuantos pixeles se movera el sprite (moviminto)
+_vx=3
+_vy=3
+#configurar punto de origen
+_ox=2
+_oy=2
+#voltear imagen (True = por defecto) (False = direccion contraria)
+_i=1
+#movimiento
 correr
+#ubicacion de las imagenes para este movimiento
 ./image/DBZ/GOKU4/CORRER/1.png
 ./image/DBZ/GOKU4/CORRER/2.png
 ./image/DBZ/GOKU4/CORRER/3.png
-./image/DBZ/GOKU4/CORRER/4.png
+./image/DBZ/GOKU4/CORRER/4-2.png
 ./image/DBZ/GOKU4/CORRER/5.png
+#movimiento
 super_kameha
+#ubicacion de las imagenes para este movimiento
 ./image/DBZ/GOKU4/KAMEKAMEHA_SUPER/1.png
 ./image/DBZ/GOKU4/KAMEKAMEHA_SUPER/2.png
 ./image/DBZ/GOKU4/KAMEKAMEHA_SUPER/3.png
@@ -13,3 +31,12 @@ super_kameha
 ./image/DBZ/GOKU4/KAMEKAMEHA_SUPER/5.png
 ./image/DBZ/GOKU4/KAMEKAMEHA_SUPER/6.png
 ./image/DBZ/GOKU4/KAMEKAMEHA_SUPER/7.png
+#movimiento
+golpe_patada
+#ubicacion de las imagenes para este movimiento
+./image/DBZ/GOKU4/ATAQUE-PATADA/1.png
+./image/DBZ/GOKU4/ATAQUE-PATADA/2.png
+./image/DBZ/GOKU4/ATAQUE-PATADA/3.png
+./image/DBZ/GOKU4/ATAQUE-PATADA/4.png
+./image/DBZ/GOKU4/ATAQUE-PATADA/5.png
+./image/DBZ/GOKU4/ATAQUE-PATADA/6.png

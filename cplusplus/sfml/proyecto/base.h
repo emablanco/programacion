@@ -4,41 +4,27 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Graphics/RenderWindow.hpp>
 #include <SFML/Graphics/Texture.hpp>
-#include <SFML/System/Clock.hpp>
-#include <SFML/System/Time.hpp>
-#include <SFML/System/Vector2.hpp>
+#include <SFML/Window/Event.hpp>
 #include <vector>
-#include "personaje.h"
 #include "goku.h"
-#include "poder.h"
-#include "kameha1.h"
+#include "personaje.h"
 class Base{
 
     private:
 
         sf::RenderWindow *ventana1;
-        sf::Texture *wallapapers_tex;
-        sf::Sprite *wallapapers_spr;
+//        sf::Texture *wallpapers_tex;
+//        sf::Texture *wallpapers_spr;
 
-        sf::Vector2i resolucion;
-       
-        std::vector<Personaje *> luchadores;
-        std::vector<Poder*> poderes;
-
-        sf::Clock reloj1;
-        sf::Time tiempo1;
-
-        int imagenes;
+        sf::Vector2f resolucion;
+        sf::Event evento1;
 
     public:
  
-        Base(sf::Vector2i, std::string);
-        
-        bool gameLoop();
-        
-        bool dibujar();
-        
-        bool controlarTiempo(float);
+        Base(sf::Vector2f, std::string);
+        bool dibujar(Personaje *);
+        bool ventanaAbierta();
+        ~Base();
 };
 
 #endif /* ifndef BASE_H
@@ -48,8 +34,6 @@ class Base{
 class Base{
 
     private:
-
-        sf::
 
     public:
 
