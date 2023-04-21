@@ -13,14 +13,20 @@ class Goku: public Personaje{
 
     private:
 
+        int imagen_patadas;
+        int imagen_correr;
+
     public:
     
         Goku( std::string ruta = "./image/LUCHADORES/GOKU4.png", float x = 100, float y = 100);
         Goku(const Goku&)= delete;
+
         bool ataquePatada();
+
         
 //-------------------VIRTUALES ------------------------------------
-        void correr(sf::Vector2f, std::string)override;
+
+//        void correr(sf::Vector2f, std::string)override;
 
         bool buscarEnemigo(sf::Vector2f) override;
 

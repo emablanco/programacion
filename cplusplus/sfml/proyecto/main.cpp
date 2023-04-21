@@ -18,33 +18,57 @@ bool controlarTiempo2(sf::Clock *reloj1, sf::Time *tiempo2, float n){
     return false;
 }
 
+sf::Vector2f valoresAleatorios(){
+
+    sf::Vector2f valor;
+    valor.x = rand() % 600;
+    valor.y = rand() % 400;
+    return valor;
+}
 int main(int argc, char *argv[])
 {
-    sf::Clock *reloj1;
-    sf::Time *tiempo2;
-    reloj1 = new sf::Clock();
-    tiempo2 = new sf::Time();
-
     srand(time(0));
+    sf::Clock *reloj1;
+    sf::Clock *reloj2;
+    sf::Clock *reloj3;
+    sf::Time *tiempo1;
+    reloj1 = new sf::Clock();
+    reloj2 = new sf::Clock();
+    reloj3 = new sf::Clock();
+    tiempo1 = new sf::Time();
+
 
     Personaje *ale = new Goku;
+    Personaje *ragnar = new Goku;
 
     sf::Vector2f ventana(600,400);
-    Base ema(ventana, "Ema");
-
-        while(ema.ventanaAbierta()){
-
-            bool esta = controlarTiempo2(reloj1, tiempo2, 0.3); 
-
+    sf::Vector2f p;
     
-            if(esta) ale->correr(ventana, "correr");
-            
-            ema.dibujar(ale);
+    p = valoresAleatorios();
+    ale -> setSpriteIndex("correr", 0);
+    ale->setPosicionSprite(p.x,p.y);
+    Base ema(ventana, "Ema");
+    
+    while(ema.ventanaAbierta()){
 
+        if(controlarTiempo2(reloj1, tiempo1, 3.0)){
+        std::cout<<"VAlor Ema: "<<p.x<<" "<<p.y<<"\n";
+            p = valoresAleatorios();
+        }
+        if(controlarTiempo2(reloj2, tiempo1, 0.3)){
+            ale->buscarEnemigo(p);
+            if(ragnar->buscarEnemigo(p))
+                ragnar->atacarEnemigo();
+                
+        }
+        ema.dibujar(ale, ragnar);
     }
-
     delete reloj1;
-    delete tiempo2;
+    delete reloj2;
+    delete reloj3;
+    delete tiempo1;
+    delete ale;
+    delete ragnar;
 
     return EXIT_SUCCESS;
 }

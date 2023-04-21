@@ -16,11 +16,11 @@ _i=1
 #movimiento
 correr
 #ubicacion de las imagenes para este movimiento
+./image/DBZ/GOKU4/CORRER/0.png
 ./image/DBZ/GOKU4/CORRER/1.png
 ./image/DBZ/GOKU4/CORRER/2.png
 ./image/DBZ/GOKU4/CORRER/3.png
-./image/DBZ/GOKU4/CORRER/4-2.png
-./image/DBZ/GOKU4/CORRER/5.png
+./image/DBZ/GOKU4/CORRER/4.png
 #movimiento
 super_kameha
 #ubicacion de las imagenes para este movimiento

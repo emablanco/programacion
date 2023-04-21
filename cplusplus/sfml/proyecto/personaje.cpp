@@ -3,7 +3,7 @@
 #include <SFML/Graphics/Texture.hpp>
 #include <SFML/System/Vector2.hpp>
 #include <iostream>
-Personaje::Personaje(std::string r, float x,float y):escalar({x,y}), posicion(0,0), velocidad(3,3), ima_posicion(true), imagen_del_movimiento(0), puntoOrigen({0,0}),vivo(true){
+Personaje::Personaje(std::string r, float x,float y):escalar({x,y}), posicion(0,0), velocidad(3,3), ima_posicion(true), punto_de_origen({0,0}){
 
     ima_tex.loadFromFile(r);
     ima_spr.setTexture(ima_tex);
@@ -12,52 +12,38 @@ Personaje::Personaje(std::string r, float x,float y):escalar({x,y}), posicion(0,
 //--------------------------- PROTECTED ----------------------------------
 
 //agrega imagenes al vector
-bool Personaje::setMovimientos(std::string nombre, sf::Texture imagen){
+bool Personaje::agregarImagenesParaMovimientos(std::string nombre, sf::Texture imagen){
     movimientos[nombre].push_back(imagen);
     return true;
 }
 
 //cambiar los valores de escala de los sprite
-bool Personaje::setValoresEscala(float x, float y){
+bool Personaje::valoresParaEscalarImagen(float x, float y){
     escalar.x = x;
     escalar.y =y;
     return true;
 }
 
 //cambiar el valor de la velocidad para los sprite
-bool Personaje::setVelocidad(float x, float y){
+bool Personaje::configurarVelocidad(float x, float y){
     velocidad.x = x;
     velocidad.y = y;
     return true;
 }
 
-//cambiar el numero referente a la posicion de la textura
-bool Personaje::setImagenDelMovimiento(int n){
-    imagen_del_movimiento = n;
-    return true;
-}
-
-//obtener el numero referente al movimiento
-int Personaje::getImagenDelMovimiento(){
-    return imagen_del_movimiento;
-}
 //obtener un vector2f con la velocidad de la imagen
-sf::Vector2f Personaje::getVelocidad(){
+sf::Vector2f Personaje::obtenerVelocidad(){
     return velocidad;
 }
 
 //obtener un vector2f con los valores de escala
-sf::Vector2f Personaje::getEscalar(){
+sf::Vector2f Personaje::obtenerEscalar(){
     return escalar;
 }
 
-//obtener la direccion de memoria del sprite
-sf::Sprite *Personaje::obtenerSprite(){
-    return &ima_spr;
-}
 
 //en que posicion estara la imagen. "true" no se voltea, "false" se voltea
-bool Personaje::getImaPosicion()const{
+bool Personaje::obtenerParaDondeMiraLaImagen()const{
     return ima_posicion;
 }
 
@@ -77,10 +63,14 @@ bool Personaje::moveSprite(float x,float y){
 bool Personaje::setSpriteIndex(std::string m, int index){
 
     if(index >= 0 and index < movimientos[m].size()){
+
         ima_spr.setTexture(movimientos[m][index]);
+        
         //si el valor es true no se voltea la imagen
         if(ima_posicion){
+        
             ima_spr.setScale(escalar.x / movimientos[m][index].getSize().x, escalar.y / movimientos[m][index].getSize().y);
+            
             ima_spr.setPosition(posicion.x, posicion.y);
             return true;
         }
@@ -94,15 +84,15 @@ bool Personaje::setSpriteIndex(std::string m, int index){
 
         sf::Vector2f spriteSize(ima_spr.getGlobalBounds().width, ima_spr.getGlobalBounds().height);
 
-        ima_spr.setOrigin(ima_spr.getTexture()->getSize().x / 2.f, ima_spr.getTexture()->getSize().y / 2.f);
-        //ima_spr.setOrigin(spriteSize.x / puntoOrigen.x, spriteSize.y / puntoOrigen.y);
+        ima_spr.setOrigin(spriteSize.x / punto_de_origen.x, spriteSize.y / punto_de_origen.y);
 
     }
+
     return false;
 }
 
 //devuelve la cantidad de imagenes disponibles para hacer el movimiento
-int Personaje::cantidadImagenes(std::string n){
+int Personaje::getCantidadImagenes(std::string n){
     return movimientos[n].size();
 }
 
@@ -121,21 +111,21 @@ sf::Vector2f Personaje::getPosicionSprite(){
 }
 
 //la posion por defector del sprite
-bool Personaje::cambiarPosicion(float x,float y){
+bool Personaje::setPosicionSprite(float x,float y){
     posicion.x = x;
     posicion.y = y;
     return true;
 }
 
 //funcion para cambiar el valor de desplazamiento.
-bool Personaje::cambiarVelocidad(float x, float y){
+bool Personaje::setVelocidad(float x, float y){
     velocidad.x = x;
     velocidad.y = y;
     return true;
 }
 
 //depende el valor la imagen volteara
-bool Personaje::setImaPosicion(bool i){
+bool Personaje::setPosicionDeLaImagen(bool i){
     ima_posicion = i;
     return true;
 }
@@ -143,11 +133,8 @@ bool Personaje::setImaPosicion(bool i){
 //cambiar el punto de origen
 bool Personaje::setPuntoDeOrigen(float x,float y){
 
-    puntoOrigen.x = x;
-    puntoOrigen.y = y;
+    punto_de_origen.x = x;
+    punto_de_origen.y = y;
 
     return true;
-}
-bool Personaje::estaVivo()const{
-    return vivo;
 }

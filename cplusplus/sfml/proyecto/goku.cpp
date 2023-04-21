@@ -6,7 +6,7 @@
 #include <string>
 #include <iostream>
 
-Goku::Goku(std::string r,float x, float y):Personaje(r,x,y){
+Goku::Goku(std::string r,float x, float y):Personaje(r,x,y),imagen_correr(0), imagen_patadas(0){
 
     float escalar_x = 100;
     float escalar_y = 100;
@@ -21,8 +21,10 @@ Goku::Goku(std::string r,float x, float y):Personaje(r,x,y){
     std::ifstream archivo("./configuraciones/config_goku.txt");
     
     if(archivo.is_open()){
+        
         std::string cadena;
         std::string movimiento;
+
         while (std::getline(archivo,cadena)) {
             if(!cadena.empty() and cadena[0] == '_'){
                 float valor;
@@ -66,7 +68,7 @@ Goku::Goku(std::string r,float x, float y):Personaje(r,x,y){
                 if (!cadena.empty() and cadena[0] == '.') {
                     sf::Texture imagen;
                     imagen.loadFromFile(cadena);
-                    this -> setMovimientos(movimiento, imagen);
+                    this -> agregarImagenesParaMovimientos(movimiento, imagen);
                     std::cout<<"Movimiento: "<<movimiento<<"ruta: "<<cadena<<"\n";
                 } 
             }
@@ -78,76 +80,14 @@ Goku::Goku(std::string r,float x, float y):Personaje(r,x,y){
     std::cout<<"Valor Escala: "<<velocidad_x<<" "<<velocidad_y<<"\n";
     std::cout<<"Valor origen: "<<origen_x<<" "<<origen_y<<"\n";
 
-    this -> setValoresEscala(escalar_x, escalar_y);
-    this -> cambiarPosicion(posicion_x, posicion_y);
-    this -> setVelocidad(velocidad_x, velocidad_y);
-    this -> setImaPosicion(ima_posicion);
+    this -> valoresParaEscalarImagen(escalar_x, escalar_y);
+    this -> setPosicionSprite(posicion_x, posicion_y);
+    this -> configurarVelocidad(velocidad_x, velocidad_y);
+    this -> setPosicionDeLaImagen(ima_posicion);
     this ->setPuntoDeOrigen(origen_x, origen_y);
 
+    std::cout <<"Cantidad de imagenes Correr: "<<this -> getCantidadImagenes("correr")<<"\n";
     std::cout<<"Datos cargados correctos\n";
-}
-
-void Goku::correr(sf::Vector2f ventana, std::string poder){
-    
-    //obtengo el nuemero de la imagen que se esta usando para correr
-    int imagen = this -> getImagenDelMovimiento();
-    
-    //puntero al sprite
-    sf::Sprite *sprite = this -> obtenerSprite();
-    
-    //preparo el sprite que se imprimira 
-    this -> setSpriteIndex(poder, imagen);
-
-    //creo un vector con la velocidad
-    sf::Vector2f vel = this -> getVelocidad();
-    
-    //creo un vector con a posicion del sprite
-    sf::Vector2f pos = sprite -> getPosition();
-
-    //aumento en 1 la imagen
-    ++imagen;
-    
-    //cambia el valor del vector de posicion que usara "setSpriteIndex"
-    this -> cambiarPosicion(pos.x + vel.x, pos.y);
-
-    if(sprite->getPosition().x < 570)
-        if(sprite -> getPosition().x > 530)
-            if( this -> getVelocidad().x < 0)
-                if(imagen == 3)
-                    this -> cambiarPosicion(10, sprite -> getPosition().y);
- 
-    if(sprite->getPosition().x > 30)
-        if(sprite -> getPosition().x < 80)
-            if( this -> getVelocidad().x > 0)
-                if(imagen == 3)
-                    this -> cambiarPosicion(580, sprite -> getPosition().y);
-   
-
-//no permito que se pase del lado izquiero de la ventana
-   if(sprite->getPosition().x < 20){
-       this -> setImaPosicion(true);
-       if(vel.x < 0) vel.x *= -1;
-       this -> setVelocidad(vel.x, this -> getVelocidad().y);
-       sprite->setPosition(20 ,sprite->getPosition().y);
-    }
-
-   //no permito que se pase mas del tamaño de el ancho de la ventana
-   if(sprite->getPosition().x > (ventana.x-20)){
-       this ->setImaPosicion(false);
-       if(vel.x > 0) vel.x *= -1;
-       this -> setVelocidad(vel.x, this -> getVelocidad().y);
-       sprite->setPosition((ventana.x-20),sprite->getPosition().y);
-    }
-
-   //actualizo la posicion de la textura
-   if(imagen < this -> cantidadImagenes(poder))
-       this -> setImagenDelMovimiento(imagen);
-
-   //reseteo cuando para que comience por la primera textura
-   if(imagen == this -> cantidadImagenes(poder))
-       this -> setImagenDelMovimiento(0);
-    
-   sprite = nullptr;
 }
 
 bool Goku::atacarEnemigo(){
@@ -157,58 +97,84 @@ bool Goku::atacarEnemigo(){
 
 bool Goku::buscarEnemigo(sf::Vector2f v){
 
+    this -> setSpriteIndex("correr", imagen_correr);
+ 
     //velocidad
-    sf::Vector2f vel_movimiento = this -> getVelocidad();
+    sf::Vector2f vel_movimiento = this -> obtenerVelocidad();
+   
     //posicion del sprite en la ventana
     sf::Vector2f ima_spr = this -> getPosicionSprite();
+   
     //textura que se esta dibijando
-    int imagen = this -> getImagenDelMovimiento();
-
+    int imagen = imagen_correr;
+    
     //si se encuentra en la posicion devuelve true.
     if(v.x == ima_spr.x and v.y == ima_spr.y){
-        if(!this -> getImaPosicion()){
-            this -> moveSprite(10, 0);
-        }
-        this -> setSpriteIndex("correr", imagen);
+        this -> setSpriteIndex("correr", 4);
+        imagen_correr = 0;
         return true;
     }
+    
     //si la imagen no corresponde a la imagen de transportacion
-    if(imagen != 4){
-
+    if(imagen != 2){
+        //enemigo esta a la derecha
         if(v.x > ima_spr.x){
-            this->setImaPosicion(true); //la imagenmira a la derecha
-            vel_movimiento.x = this -> getVelocidad().x < 0 ? this -> getVelocidad().x * -1 : this -> getVelocidad().x;
-            if(v.x - ima_spr.x <= vel_movimiento.x) vel_movimiento.x = 0;
+            this->setPosicionDeLaImagen(true); //la imagen mira a la derecha
+            vel_movimiento.x = this -> obtenerVelocidad().x < 0 ? this -> obtenerVelocidad().x * -1 : this -> obtenerVelocidad().x;
+            if(v.x - ima_spr.x <= vel_movimiento.x) // si la distancia del enemigo es menor a la velucidad
+                vel_movimiento.x = 0;
         }
         else{
+            //enemigo esta a la izquierda
             if(v.x < ima_spr.x){
-                this->setImaPosicion(false); // mira a la izquierda
-                vel_movimiento.x = this -> getVelocidad().x > 0 ? this -> getVelocidad().x * -1 : this -> getVelocidad().x;
-                if(ima_spr.x - v.x <= vel_movimiento.x) vel_movimiento.x = 0;
+                this->setPosicionDeLaImagen(false); // mira a la izquierda
+                vel_movimiento.x = this -> obtenerVelocidad().x > 0 ? this -> obtenerVelocidad().x * -1 : this -> obtenerVelocidad().x;
+                if(ima_spr.x - v.x <= vel_movimiento.x)
+                    vel_movimiento.x = 0;
             }
         }
 
-        if(v.y > ima_spr.y){
-            vel_movimiento.y = this -> getVelocidad().y < 0 ? this -> getVelocidad().y * -1 : this -> getVelocidad().y;
-            if(v.y - ima_spr.y <= vel_movimiento.y) vel_movimiento.y = 0;
+        if(v.y > ima_spr.y){ // si el enemigo esta arriba
+            vel_movimiento.y = this -> obtenerVelocidad().y < 0 ? this -> obtenerVelocidad().y * -1 : this -> obtenerVelocidad().y;
+            if(v.y - ima_spr.y <= vel_movimiento.y)
+                vel_movimiento.y = 0;
         }
         else{
-            if(v.y < ima_spr.y){
-                vel_movimiento.y = this -> getVelocidad().y > 0 ? this -> getVelocidad().x * -1 : this -> getVelocidad().y;
-                if(ima_spr.y - v.y <= vel_movimiento.y) vel_movimiento.y = 0;
+            if(v.y < ima_spr.y){ //si el enemigo esta anbajo
+                vel_movimiento.y = this -> obtenerVelocidad().y > 0 ? this -> obtenerVelocidad().x * -1 : this -> obtenerVelocidad().y;
+                if(ima_spr.y - v.y <= vel_movimiento.y)
+                    vel_movimiento.y = 0;
             }
         }
-       //le suma a la posicion del sprite estos valores
+       //le suma a la posicion del sprite estos valores definidos en la velocidad
         this -> moveSprite(vel_movimiento.x,vel_movimiento.y);
     }
-    else{
-        this -> cambiarPosicion(v.x , v.y);
+    else{ //si la imaen es 2 aparecera junto al enemigo
+        this -> setPosicionSprite(v.x , v.y);
+    } 
+    ++imagen; // paso a la proxima imagen
+
+    if(imagen == this -> getCantidadImagenes("correr")) // si el nuemero es mayor a las imagenes disponibles
+        imagen_correr = 0;
+    else // si el numero no es mayor
+        imagen_correr = imagen;
+
+    return false;
+}
+
+bool Goku::ataquePatada(){
+//los golpes los dara del lado que se tenga configurado la posicion de la imagen 
+//usar junto a buscar enemigo
+    
+    //golpe_patada
+    int cantidad_imagenes = this -> getCantidadImagenes("golpe_patada");
+    this -> setSpriteIndex("golpe_patada", imagen_patadas);
+    ++imagen_patadas;
+    if(imagen_patadas == this -> getCantidadImagenes("golpe_patada")){
+        imagen_patadas = 0;
+        return true;
     }
 
-    this -> setSpriteIndex("correr", imagen);
-    
-    ++imagen;
-    
     return false;
 }
 
