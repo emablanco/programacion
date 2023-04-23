@@ -22,9 +22,11 @@ class Base{
     public:
  
         Base(sf::Vector2f, std::string);
+        bool dibujar(sf::Sprite *);
         bool dibujar(Personaje *);
         bool dibujar(Personaje *, Personaje *);
-        bool dibujar(const std::vector<Personaje *> &, const  std::vector<Personaje *> &);
+      //  bool dibujar(std::vector<Personaje *> &);
+        bool dibujar(const std::vector<Personaje *> &,const std::vector<Personaje *> &);
 
         bool ventanaAbierta();
         ~Base();

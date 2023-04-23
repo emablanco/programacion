@@ -3,30 +3,32 @@
 
 #include <string>
 #include "personaje.h"
+#include <SFML/System/Clock.hpp>
+#include <SFML/System/Time.hpp>
 #include <SFML/System/Vector2.hpp>
 #include <fstream>
 #include <string>
 #include <cctype>
 #include <SFML/Graphics/Texture.hpp>
-
 class Goku: public Personaje{
 
     private:
 
-        int imagen_patadas;
-        int imagen_correr;
+        int life;
 
     public:
     
         Goku( std::string ruta = "./image/LUCHADORES/GOKU4.png", float x = 100, float y = 100);
+        
         Goku(const Goku&)= delete;
 
         bool ataquePatada();
 
+        bool dibujarMuerto()override;
         
 //-------------------VIRTUALES ------------------------------------
 
-//        void correr(sf::Vector2f, std::string)override;
+        bool recibirGolpes(sf::Clock *, sf::Time *, float, int) override;
 
         bool buscarEnemigo(sf::Vector2f) override;
 

@@ -1,7 +1,9 @@
 #el "." representa el directorio donde se encuentra el archivo goku.h
+#vida or life
+_l=1000
 #valores para escalar la imagen
-_ex=100
-_ey=100
+_ex=60
+_ey=80
 #posicion de la imagen en  la ventana
 _px=0
 _py=0
@@ -40,3 +42,19 @@ golpe_patada
 ./image/DBZ/GOKU4/ATAQUE-PATADA/4.png
 ./image/DBZ/GOKU4/ATAQUE-PATADA/5.png
 ./image/DBZ/GOKU4/ATAQUE-PATADA/6.png
+#movimiento
+se_para
+#ubicacion de las imagenes para este movimiento
+./image/DBZ/GOKU4/SE_PARA/0.png
+./image/DBZ/GOKU4/SE_PARA/1.png
+./image/DBZ/GOKU4/SE_PARA/2.png
+./image/DBZ/GOKU4/SE_PARA/3.png
+./image/DBZ/GOKU4/SE_PARA/4.png
+golpeado
+#ubicacion de las imagenes para este movimiento
+./image/DBZ/GOKU4/GOLPEADO/0.png
+./image/DBZ/GOKU4/GOLPEADO/1.png
+./image/DBZ/GOKU4/GOLPEADO/2.png
+./image/DBZ/GOKU4/GOLPEADO/3.png
+./image/DBZ/GOKU4/GOLPEADO/4.png
+

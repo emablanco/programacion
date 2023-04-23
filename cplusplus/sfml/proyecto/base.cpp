@@ -18,6 +18,15 @@ Base::Base(sf::Vector2f r, std::string n): resolucion(r), ventana1(new sf::Rende
 
     ventana1 -> setFramerateLimit(60);
 }
+
+bool Base::dibujar(sf::Sprite *ema){
+    ventana1->clear(sf::Color::Red);
+    ventana1->draw(*wallpapers_spr);
+    ventana1 -> draw(*ema);
+    ventana1->display();
+    return true;
+}
+
 bool Base::dibujar(Personaje *ema){
     ventana1->clear(sf::Color::Red);
     ventana1->draw(*wallpapers_spr);
@@ -34,8 +43,18 @@ bool Base::dibujar(Personaje *bueno, Personaje *malo){
     ventana1->display();
     return true;
 }
+/**
+bool Base::dibujar(std::vector<Personaje*> &luchadores){
 
+    ventana1->clear(sf::Color::Red);
+    ventana1->draw(*wallpapers_spr);
+    for (size_t i = 0; i < luchadores.size(); i++)
+        ventana1->draw(*luchadores[i]);
+    ventana1->display();
+    return true;
+}
 
+**/
 bool Base::dibujar(const std::vector<Personaje*> &bueno,const std::vector<Personaje*> &malo){
 
     ventana1->clear(sf::Color::Red);

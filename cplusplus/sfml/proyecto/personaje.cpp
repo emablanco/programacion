@@ -3,7 +3,7 @@
 #include <SFML/Graphics/Texture.hpp>
 #include <SFML/System/Vector2.hpp>
 #include <iostream>
-Personaje::Personaje(std::string r, float x,float y):escalar({x,y}), posicion(0,0), velocidad(3,3), ima_posicion(true), punto_de_origen({0,0}){
+Personaje::Personaje(std::string r, float x,float y):escalar({x,y}), posicion(0,0), velocidad(3,3), ima_posicion(true), punto_de_origen({0,0}), estado(true){
 
     ima_tex.loadFromFile(r);
     ima_spr.setTexture(ima_tex);
@@ -17,11 +17,19 @@ bool Personaje::agregarImagenesParaMovimientos(std::string nombre, sf::Texture i
     return true;
 }
 
+//agrego el nombre del movimiento y el numero de la textura
+bool Personaje::agregarMovimientosIndex(std::string n,int i){
+    num_movimientos[n] = i;
+    return true;
+}
+
+
 //cambiar los valores de escala de los sprite
 bool Personaje::valoresParaEscalarImagen(float x, float y){
     escalar.x = x;
     escalar.y =y;
-    return true;
+    if(escalar.x == x and escalar.y == y ) return true;
+    return false;
 }
 
 //cambiar el valor de la velocidad para los sprite
@@ -58,34 +66,44 @@ bool Personaje::moveSprite(float x,float y){
 
 //-----------------------------------------------------------------------
 
+//el numero que hace referencia a la textura que se esta dibujando
+int Personaje::getIndexImagenDelMovimiento(std::string n){
+    return num_movimientos[n];
+}
+//devolver el rectangulo del sprite para usar con coliciones
+sf::FloatRect Personaje::buscarGlobal()const{
+    return ima_spr.getGlobalBounds();
+}
 
 //carga en la variable ima_spr el sprite que se dibujara con draw
 bool Personaje::setSpriteIndex(std::string m, int index){
 
     if(index >= 0 and index < movimientos[m].size()){
 
+        //std::cout<<"escalos: "<<escalar.x<<" "<<escalar.y<<"\n";
         ima_spr.setTexture(movimientos[m][index]);
         
         //si el valor es true no se voltea la imagen
         if(ima_posicion){
         
-            ima_spr.setScale(escalar.x / movimientos[m][index].getSize().x, escalar.y / movimientos[m][index].getSize().y);
-            
+            //ima_spr.setScale(escalar.x / ima_spr.getTexture()->getSize().x, escalar.y / ima_spr.getTexture()->getSize().y);
+            ima_spr.setScale(100.f / ima_spr.getTexture()->getSize().x, escalar.y / ima_spr.getTexture()->getSize().y);
             ima_spr.setPosition(posicion.x, posicion.y);
+            
             return true;
         }
         
         else{
+
             //si el valor es false, la imagen se voltea
-            ima_spr.setScale((-1 *escalar.x) / movimientos[m][index].getSize().x, escalar.y / movimientos[m][index].getSize().y);
+            //ima_spr.setScale((-1 * escalar.x) / ima_spr.getTexture()->getSize().x, escalar.y / ima_spr.getTexture()->getSize().y);
+            ima_spr.setScale((-1 * 100.f) / ima_spr.getTexture()->getSize().x, escalar.y / ima_spr.getTexture()->getSize().y);
             ima_spr.setPosition(posicion.x, posicion.y);
+            
             return true;
         }
 
-        sf::Vector2f spriteSize(ima_spr.getGlobalBounds().width, ima_spr.getGlobalBounds().height);
-
-        ima_spr.setOrigin(spriteSize.x / punto_de_origen.x, spriteSize.y / punto_de_origen.y);
-
+        ima_spr.setOrigin(ima_spr.getTexture()->getSize().x / punto_de_origen.x, ima_spr.getTexture()->getSize().y / punto_de_origen.y);
     }
 
     return false;
@@ -97,9 +115,12 @@ int Personaje::getCantidadImagenes(std::string n){
 }
 
 //cambiar el punto de origen del sprite
-bool Personaje::setPuntoOrigen(float x,float y,std::string n, int i){
+bool Personaje::setPuntoDeOrigenSprite(float x,float y){
 
-    ima_spr.setOrigin(movimientos[n][i].getSize().x /x,movimientos[n][i].getSize().y / y);
+    sf::Vector2f dimencion_sprite; 
+    dimencion_sprite.x = ima_spr.getTexture()->getSize().x;
+    dimencion_sprite.y = ima_spr.getTexture()->getSize().y;
+    ima_spr.setOrigin(dimencion_sprite.x / x , dimencion_sprite.y / y);
 
     return true;
 }
@@ -131,10 +152,19 @@ bool Personaje::setPosicionDeLaImagen(bool i){
 }
 
 //cambiar el punto de origen
-bool Personaje::setPuntoDeOrigen(float x,float y){
+bool Personaje::setPuntoDeOrigenPorDefecto(float x,float y){
 
     punto_de_origen.x = x;
     punto_de_origen.y = y;
 
+    return true;
+}
+
+bool Personaje::getEstado()const{
+    return estado;
+}
+
+bool Personaje::setEstado(bool e){
+    estado = e;
     return true;
 }
