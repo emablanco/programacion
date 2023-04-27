@@ -23,16 +23,28 @@ class Goku: public Personaje{
         Goku(const Goku&)= delete;
 
         bool ataquePatada();
-
-        bool dibujarMuerto()override;
         
 //-------------------VIRTUALES ------------------------------------
 
-        bool recibirGolpes(sf::Clock *, sf::Time *, float, int) override;
+        //recibe golpes 
+        bool recibirGolpes(int) override;
 
-        bool buscarEnemigo(sf::Vector2f) override;
+        bool dibujarMuerto()override;
+        
+        //buscar enemigo
+        bool buscarEnemigo(sf::Vector2f, bool m = true) override;
 
-        bool atacarEnemigo() override;
+        //seleccionar que tipo de ataque random
+        bool atacarEnemigo(sf::Vector2f) override;
+
+        //esperar ataque del enemigo
+        bool esperarAtaque() override;
+
+        //turno finalizado
+        bool finalizarTurno(sf::Vector2f, sf::Vector2f) override;
+
+        //iniciar turno
+        bool ki()override;
 
         ~Goku()override;
 };

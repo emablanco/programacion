@@ -73,13 +73,8 @@ class Personaje: public sf::Drawable, public Coliciones{
 
         //valores de escala de las imagenes 100 por defecto
         sf::Vector2f obtenerEscalar();
-
-        //false mira a la izquierda 
-        //true mira a la derecha
-        bool obtenerParaDondeMiraLaImagen()const;
-
-        //le sumo a la posicion actual del sprite 
-        //similar a la funcion move
+        
+        //le sumo a la posicion actual | similar a la funcion move
         bool moveSprite(float,float);
 
     public:
@@ -99,6 +94,10 @@ class Personaje: public sf::Drawable, public Coliciones{
 
         //cantidad de imagenes disponibles para el movimiento
         int getCantidadImagenes(std::string);
+
+        //false mira a la izquierda 
+        //true mira a la derecha
+        bool obtenerParaDondeMiraLaImagen()const;
 
         //sera la posicion por defecto del sprite
         bool setPosicionSprite(float,float);
@@ -121,6 +120,8 @@ class Personaje: public sf::Drawable, public Coliciones{
         //cambar el estado del personaje. vivo o muerto
         bool setEstado(bool );
 
+        void verMovimientos();
+
 
 // --------------------- COLICIONES ------------------------------------
         
@@ -131,13 +132,23 @@ class Personaje: public sf::Drawable, public Coliciones{
 
         virtual bool dibujarMuerto()=0;
         
-        virtual bool recibirGolpes(sf::Clock *, sf::Time *,float,int) =0;
+        virtual bool recibirGolpes(int) =0;
         
         //buscar enemigo
-        virtual bool buscarEnemigo(sf::Vector2f)=0;
+        virtual bool buscarEnemigo(sf::Vector2f, bool m = true)=0;
 
         //atacar al enemigo
-        virtual bool atacarEnemigo()=0;
+        virtual bool atacarEnemigo(sf::Vector2f)=0;
+
+        //esperar ataque del enemigo
+        virtual bool esperarAtaque()=0;
+
+        //turno finalizado
+        virtual bool finalizarTurno(sf::Vector2f, sf::Vector2f)=0;
+
+        //iniciar turno
+
+        virtual bool ki()=0;
 
         //destructor virtual
         virtual ~Personaje(){}

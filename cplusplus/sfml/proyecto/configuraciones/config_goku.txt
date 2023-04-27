@@ -1,6 +1,6 @@
 #el "." representa el directorio donde se encuentra el archivo goku.h
 #vida or life
-_l=1000
+_l=500
 #valores para escalar la imagen
 _ex=60
 _ey=80
@@ -34,14 +34,22 @@ super_kameha
 ./image/DBZ/GOKU4/KAMEKAMEHA_SUPER/6.png
 ./image/DBZ/GOKU4/KAMEKAMEHA_SUPER/7.png
 #movimiento
-golpe_patada
+golpes
 #ubicacion de las imagenes para este movimiento
-./image/DBZ/GOKU4/ATAQUE-PATADA/1.png
-./image/DBZ/GOKU4/ATAQUE-PATADA/2.png
-./image/DBZ/GOKU4/ATAQUE-PATADA/3.png
-./image/DBZ/GOKU4/ATAQUE-PATADA/4.png
-./image/DBZ/GOKU4/ATAQUE-PATADA/5.png
-./image/DBZ/GOKU4/ATAQUE-PATADA/6.png
+./image/DBZ/GOKU4/ATAQUE-FISICO/0.png
+./image/DBZ/GOKU4/ATAQUE-FISICO/1.png
+./image/DBZ/GOKU4/ATAQUE-FISICO/2.png
+./image/DBZ/GOKU4/ATAQUE-FISICO/3.png
+./image/DBZ/GOKU4/ATAQUE-FISICO/4.png
+./image/DBZ/GOKU4/ATAQUE-FISICO/5.png
+./image/DBZ/GOKU4/ATAQUE-FISICO/6.png
+./image/DBZ/GOKU4/ATAQUE-FISICO/7.png
+./image/DBZ/GOKU4/ATAQUE-FISICO/8.png
+./image/DBZ/GOKU4/ATAQUE-FISICO/9.png
+./image/DBZ/GOKU4/ATAQUE-FISICO/10.png
+./image/DBZ/GOKU4/ATAQUE-FISICO/11.png
+./image/DBZ/GOKU4/ATAQUE-FISICO/12.png
+./image/DBZ/GOKU4/ATAQUE-FISICO/13.png
 #movimiento
 se_para
 #ubicacion de las imagenes para este movimiento
@@ -50,6 +58,7 @@ se_para
 ./image/DBZ/GOKU4/SE_PARA/2.png
 ./image/DBZ/GOKU4/SE_PARA/3.png
 ./image/DBZ/GOKU4/SE_PARA/4.png
+#movimiento
 golpeado
 #ubicacion de las imagenes para este movimiento
 ./image/DBZ/GOKU4/GOLPEADO/0.png
@@ -57,4 +66,33 @@ golpeado
 ./image/DBZ/GOKU4/GOLPEADO/2.png
 ./image/DBZ/GOKU4/GOLPEADO/3.png
 ./image/DBZ/GOKU4/GOLPEADO/4.png
-
+#movimiento
+descanso
+#ubicacion de las imagenes para este movimiento
+./image/DBZ/GOKU4/DESCANSO/0.png
+./image/DBZ/GOKU4/DESCANSO/1.png
+./image/DBZ/GOKU4/DESCANSO/2.png
+./image/DBZ/GOKU4/DESCANSO/3.png
+./image/DBZ/GOKU4/DESCANSO/4.png
+./image/DBZ/GOKU4/DESCANSO/5.png
+./image/DBZ/GOKU4/DESCANSO/6.png
+./image/DBZ/GOKU4/DESCANSO/7.png
+./image/DBZ/GOKU4/DESCANSO/8.png
+./image/DBZ/GOKU4/DESCANSO/9.png
+./image/DBZ/GOKU4/DESCANSO/10.png
+./image/DBZ/GOKU4/DESCANSO/11.png
+./image/DBZ/GOKU4/DESCANSO/12.png
+./image/DBZ/GOKU4/DESCANSO/13.png
+#movimiento
+descanso2
+#ubicacion de las imagenes para este movimiento
+./image/DBZ/GOKU4/DESCANSO2/0.png
+./image/DBZ/GOKU4/DESCANSO2/1.png
+./image/DBZ/GOKU4/DESCANSO2/2.png
+./image/DBZ/GOKU4/DESCANSO2/3.png
+./image/DBZ/GOKU4/DESCANSO2/4.png
+./image/DBZ/GOKU4/DESCANSO2/5.png
+./image/DBZ/GOKU4/DESCANSO2/6.png
+./image/DBZ/GOKU4/DESCANSO2/7.png
+./image/DBZ/GOKU4/DESCANSO2/8.png
+./image/DBZ/GOKU4/DESCANSO2/9.png

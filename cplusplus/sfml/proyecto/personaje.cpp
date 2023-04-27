@@ -79,31 +79,26 @@ sf::FloatRect Personaje::buscarGlobal()const{
 bool Personaje::setSpriteIndex(std::string m, int index){
 
     if(index >= 0 and index < movimientos[m].size()){
-
         //std::cout<<"escalos: "<<escalar.x<<" "<<escalar.y<<"\n";
         ima_spr.setTexture(movimientos[m][index]);
-        
         //si el valor es true no se voltea la imagen
         if(ima_posicion){
-        
-            //ima_spr.setScale(escalar.x / ima_spr.getTexture()->getSize().x, escalar.y / ima_spr.getTexture()->getSize().y);
-            ima_spr.setScale(100.f / ima_spr.getTexture()->getSize().x, escalar.y / ima_spr.getTexture()->getSize().y);
+            ima_spr.setScale(escalar.x / ima_spr.getTexture()->getSize().x, escalar.y / ima_spr.getTexture()->getSize().y);
             ima_spr.setPosition(posicion.x, posicion.y);
             
+            ima_spr.setOrigin(ima_spr.getTexture()->getSize().x / punto_de_origen.x, ima_spr.getTexture()->getSize().y / punto_de_origen.y);
+            
             return true;
-        }
-        
-        else{
+        }else{
 
             //si el valor es false, la imagen se voltea
-            //ima_spr.setScale((-1 * escalar.x) / ima_spr.getTexture()->getSize().x, escalar.y / ima_spr.getTexture()->getSize().y);
-            ima_spr.setScale((-1 * 100.f) / ima_spr.getTexture()->getSize().x, escalar.y / ima_spr.getTexture()->getSize().y);
+            ima_spr.setScale((-1 * escalar.x) / ima_spr.getTexture()->getSize().x, escalar.y / ima_spr.getTexture()->getSize().y);
             ima_spr.setPosition(posicion.x, posicion.y);
             
+            ima_spr.setOrigin(ima_spr.getTexture()->getSize().x / punto_de_origen.x, ima_spr.getTexture()->getSize().y / punto_de_origen.y);
             return true;
         }
 
-        ima_spr.setOrigin(ima_spr.getTexture()->getSize().x / punto_de_origen.x, ima_spr.getTexture()->getSize().y / punto_de_origen.y);
     }
 
     return false;
@@ -167,4 +162,10 @@ bool Personaje::getEstado()const{
 bool Personaje::setEstado(bool e){
     estado = e;
     return true;
+}
+
+void Personaje::verMovimientos(){
+
+    for(auto &m : num_movimientos)
+        std::cout<<m.first<<" "<<m.second<<"\n";
 }
