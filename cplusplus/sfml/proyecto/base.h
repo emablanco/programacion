@@ -25,9 +25,7 @@ class Base{
         bool dibujar(sf::Sprite *);
         bool dibujar(Personaje *);
         bool dibujar(Personaje *, Personaje *);
-      //  bool dibujar(std::vector<Personaje *> &);
-        bool dibujar(const std::vector<Personaje *> &,const std::vector<Personaje *> &);
-
+        bool dibujar(const std::vector<Personaje*>& bueno,const std::vector<Personaje*>& malo);
         bool ventanaAbierta();
         ~Base();
 };

@@ -55,14 +55,14 @@ bool Base::dibujar(std::vector<Personaje*> &luchadores){
 }
 
 **/
-bool Base::dibujar(const std::vector<Personaje*> &bueno,const std::vector<Personaje*> &malo){
 
+bool Base::dibujar(const std::vector<Personaje*>& bueno,const std::vector<Personaje*>& malo){
     ventana1->clear(sf::Color::Red);
     ventana1->draw(*wallpapers_spr);
-    for (size_t i = 0; i < bueno.size(); i++)
-        ventana1->draw(*bueno[i]);
-    for (size_t i = 0; i < bueno.size(); i++)
-        ventana1->draw(*malo[i]);
+    for (const auto& personaje : bueno) 
+        ventana1->draw(*personaje);
+    for (const auto& personaje : malo) 
+        ventana1->draw(*personaje);
     ventana1->display();
     return true;
 }

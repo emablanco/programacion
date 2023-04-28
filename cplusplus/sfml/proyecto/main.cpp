@@ -23,6 +23,8 @@ sf::Vector2f valoresAleatorios();
 //me preparo en las posiciones
 bool posicionInicial(sf::Clock *, sf::Time *,const float &, Personaje *, Personaje *, sf::Vector2f &, sf::Vector2f &);
 
+bool posicionInicial(sf::Clock *r1, sf::Time *t1,const float &s, Personaje *p1, sf::Vector2f &v1);
+
 //atacar a enemigo
 bool realizarAtaque(sf::Clock *, sf::Time *, const float, Personaje *, Personaje *, sf::Vector2f);
 
@@ -31,80 +33,73 @@ bool mostrarKi(sf::Clock *r1, sf::Time *t1, const float s, Personaje *p1, sf::Ve
 
 bool mostrarKi(sf::Clock *r1, sf::Time *t1, const float s, Personaje *p1, Personaje *p2);
 
+bool iniciarTurno(sf::Clock *reloj1, sf::Clock *reloj2, sf::Time *tiempo, const float &s, Personaje *p1, sf::Vector2f &v1);
+
+bool iniciarTurno(sf::Clock *, sf::Clock *, sf::Time *, const float &, Personaje *, Personaje *, sf::Vector2f &, sf::Vector2f &);
+
+bool dueloMuerte(sf::Clock * , sf::Time *, const float &, bool &, Personaje *, Personaje *);
+
 int main(int argc, char *argv[]){
     
     srand(time(0));
+   
+    std::vector<sf::Clock*> reloj;
+
+    for (size_t i = 0; i < 7 ; i++) reloj.push_back(new sf::Clock);
     
-    sf::Clock *reloj1; sf::Clock *reloj2; sf::Clock *reloj3; sf::Clock *reloj4; sf::Clock *reloj5; sf::Clock *reloj6;sf::Clock *reloj7;
-    sf::Time *tiempo1;
-    tiempo1 = new sf::Time();
-    reloj1 = new sf::Clock(); reloj2 = new sf::Clock(); reloj3 = new sf::Clock();
-    reloj4 = new sf::Clock(); reloj5 = new sf::Clock(); reloj6 = new sf::Clock(); reloj7 = new sf::Clock();
+    sf::Time *tiempo1; tiempo1 = new sf::Time();
+    
     sf::Vector2f ventana(600,400);
-    sf::Vector2f v1;
-    sf::Vector2f v2;
-    v1 = {50,400};
-    v2 = {550,400};
+    sf::Vector2f v1(50,400);
+    sf::Vector2f v2(550,400);
     //luchador 1
-    Personaje *luchadores1 = new Goku;
+    Personaje *l1 = new Goku;
     //luchador 2
-    Personaje *luchadores2 = new Goku;
+    Personaje *l2 = new Goku;
+
+
     Base ema(ventana, "Ema");
-    float s = 0.2;
-    bool turno =true;
-    bool vivo1 = true,vivo2 =true;
-    bool jugar = true;
-    bool inicio = true;
     
+    float s = 0.2;
+    bool jugar = true;
+    bool turno = (rand() % 10) < 5 ? true : false;
+    bool e = true;
+
     while(ema.ventanaAbierta()){
-        
         if(jugar){
-            if(controlarTiempo2(reloj5, tiempo1, 2)){
-                if(vivo1 and vivo2){
-                    turno = (rand() % 10) < 5 ? true : false; 
-                    inicio = !inicio;
-                }else{
-                    inicio = false;
-                    jugar = false;
-               }
-            }else{
-                if(inicio){
-                    if(posicionInicial(reloj1, tiempo1, 0.2,luchadores1, luchadores2,v1, v2))
-                        if(mostrarKi(reloj2, tiempo1,s,luchadores1,luchadores2)){}
-                }
-                else{
-                    if(vivo1 and vivo2){
-                        if(turno)
-                            vivo1 = realizarAtaque(reloj3, tiempo1, s, luchadores1, luchadores2, luchadores2->getPosicionSprite());
-                        else
-                            vivo2 = realizarAtaque(reloj4, tiempo1, s, luchadores2, luchadores1, luchadores1->getPosicionSprite());
-                    }
-                }
+            if(controlarTiempo2(reloj[0], tiempo1, 2)){
+                e = !e;
+                turno = (rand() % 10) < 5 ? true : false;
             }
-        }
-        if(vivo1==false or vivo2 == false){
-            if(luchadores1->getEstado()){
-                if(mostrarKi(reloj5, tiempo1,s,luchadores1,v1)){}
-                    luchadores2->dibujarMuerto();
-            }else{
-                if(mostrarKi(reloj5, tiempo1,s,luchadores2,v2)){}
-                    luchadores1->dibujarMuerto();
+        
+            if(e){
+                iniciarTurno(reloj[1], reloj[2], tiempo1, s, l1, l2 , v1, v2);
             }
+            else jugar = dueloMuerte(reloj[3],tiempo1,s, turno, l1,l2);
         }
 
-        ema.dibujar(luchadores2,luchadores1);
+        else iniciarTurno(reloj[4], reloj[5], tiempo1, s, l1, l2, v1, v2);
+        
+        ema.dibujar(l2,l1);
     }
 
-    delete reloj1;
-    delete reloj2;
-    delete reloj3;
-    delete reloj4;
-    delete reloj5;
-    delete reloj6;
-    delete reloj7;
-    delete tiempo1;
+    for(auto x : reloj) delete x;
+
+
     return EXIT_SUCCESS;
 }
+
+bool posicionInicial(sf::Clock *r1, sf::Time *t1,const float &s, Personaje *p1, sf::Vector2f &v1){
+    //tiempo que se esperara para dibujar 
+    if(controlarTiempo2(r1, t1, s)){
+        // no es lo mismo que poner los dos por separado
+        if(p1->buscarEnemigo(v1,false)){std::cout<<"personaje:1\n";}
+        //asi funciona mejor. poniendo por separado
+        return true;
+    }
+    return false;
+}
+
 
 bool posicionInicial(sf::Clock *r1, sf::Time *t1,const float &s, Personaje *p1, Personaje *p2, sf::Vector2f &v1, sf::Vector2f &v2){
     //tiempo que se esperara para dibujar 
@@ -141,7 +136,6 @@ bool controlarTiempo2(sf::Clock *reloj1, sf::Time *tiempo1, float n){
     return false;
 }
 
-
 bool realizarAtaque(sf::Clock *r1, sf::Time *t1, const float s, Personaje *p1, Personaje *p2, sf::Vector2f v){
     if(controlarTiempo2(r1, t1, 0.1))
         if(p1->atacarEnemigo(v))
@@ -160,9 +154,46 @@ bool mostrarKi(sf::Clock *r1, sf::Time *t1, const float s, Personaje *p1, sf::Ve
 
 bool mostrarKi(sf::Clock *r1, sf::Time *t1, const float s, Personaje *p1, Personaje *p2){
     if(controlarTiempo2(r1, t1, s)){
-        p1->ki();
-        return p2->ki();
+        if(p1->getEstado())
+            p1->ki();
+        else
+            p1->dibujarMuerto();
+        if(p2->getEstado())
+            p2->ki();
+        else
+            p2->dibujarMuerto();
+
+        return true;
     }
     return false;
 }
 
+bool dueloMuerte(sf::Clock* reloj1, sf::Time *tiempo, const float &s,bool &turno, Personaje *p1, Personaje *p2){
+
+    if(p1 -> getEstado() and p2 -> getEstado()){
+//------------------------- CAMBIAR ATAQUE ------------------------------------
+        int n = rand() % 10;
+        switch (n){
+            case 2: turno = !turno; break;
+            default: break;
+        }
+//-----------------------------------------------------------------------------
+        if(turno) return realizarAtaque(reloj1, tiempo, s, p1, p2, p2->getPosicionSprite());
+        else return realizarAtaque(reloj1, tiempo, s, p2, p1, p1->getPosicionSprite());
+    }
+    return false;
+}
+
+bool iniciarTurno(sf::Clock *reloj1, sf::Clock *reloj2, sf::Time *tiempo, const float &s, Personaje *p1, sf::Vector2f &v1){
+   if(posicionInicial(reloj1, tiempo, s, p1, v1))
+       if(mostrarKi(reloj2, tiempo, s, p1, v1))
+           return true;
+   return false;
+}
+
+bool iniciarTurno(sf::Clock *reloj1, sf::Clock *reloj2, sf::Time *tiempo, const float &s, Personaje *p1, Personaje *p2, sf::Vector2f &v1, sf::Vector2f &v2){
+   if(posicionInicial(reloj1, tiempo, s, p1, p2, v1, v2))
+       if(mostrarKi(reloj2, tiempo, s, p1, p2))
+           return true;
+   return false;
+}
